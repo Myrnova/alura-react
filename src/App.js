@@ -1,17 +1,13 @@
 import ListaDeNotas from './components/ListaDeNotas'
-
+import FormularioCadastro from './components/FormularioCadastro'
 function App() {
 
   return (
     <section>
-    <form>
-      <input type="text" placeholder="Titulo"></input>
-      <textarea placeholder="Escreva sua nota"/>
-      <button>
-        Criar Nota
-      </button> 
-    </form>  
+    
+    <FormularioCadastro />
     <ListaDeNotas />
+    
     </section>  
   );
 }
